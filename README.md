@@ -75,10 +75,3 @@ I enjoy working across the entire stack—ensuring that mobile clients, backend 
   <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=xMuramasa&layout=compact&theme=tokyonight&hide_border=true"/>
 </p>
 
----
-
-<div align="center">
-
-*"Building software and infrastructure that is scalable, secure, and maintainable."*
-
-</div>
