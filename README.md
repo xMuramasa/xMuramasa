@@ -69,11 +69,10 @@ I enjoy working across the entire stack—ensuring that mobile clients, backend 
 
 ---
 
-## 📈 GitHub Statistics
-
+### 📈 My GitHub Stats
 <p align="center">
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=xmuramasa&show_icons=true&theme=tokyonight&hide_border=true"/>
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=xmuramasa&layout=compact&theme=tokyonight&hide_border=true"/>
+  <img height="180" src="https://github-readme-stats.vercel.app/api?username=xMuramasa&show_icons=true&theme=tokyonight&hide_border=true&count_private=true"/>
+  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=xMuramasa&layout=compact&theme=tokyonight&hide_border=true"/>
 </p>
 
 ---
