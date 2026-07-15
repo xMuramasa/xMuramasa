@@ -24,7 +24,7 @@ I enjoy working across the entire stack—ensuring that mobile clients, backend 
 
 ---
 
-## 🚀 Current Focus
+## 🚀 Work
 
 - ☁️ AWS Cloud Architecture & Migration
 - 📱 Mobile-First Development (Expo & React)
@@ -62,7 +62,7 @@ I enjoy working across the entire stack—ensuring that mobile clients, backend 
 
 | Project | Technologies | Impact |
 |---------|--------------|--------|
-| **Notification Microservice** | Go, Terraform, SQS | Automated notification engine from scratch. |
+| **Notification Microservice** | Typescript, Terraform, SQS | Automated notification engine from scratch. |
 | **Cloud Infrastructure** | AWS ECS, Fargate | 2x production container density at 1.2x cost. |
 | **Mynu App Foundation** | Expo, NestJS, Clerk | End-to-end development from zero to production. |
 | **API Performance Tuning** | TanStack Query, Caching | Decreased end-user request latency by 2 seconds. |
