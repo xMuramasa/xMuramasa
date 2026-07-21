@@ -16,31 +16,41 @@
 
 ## **EXPERIENCIA PROFESIONAL**
 
-### **Systems & Cloud Engineer (Official Title: Software Engineer) - Mynu.ai**
+### **Systems & Cloud Engineer (Título Oficial: Software Engineer) - Mynu.ai**
 *(Mar 2024 – Presente) | Santiago, Chile*
-* **CI/CD y Automatización de Despliegues:** Diseñé la arquitectura e implementé el pipeline de lanzamientos automatizados de la empresa desde cero utilizando **GitHub Actions** y **GitHub Environments**. Optimicé los despliegues en contenedores y aseguré el pipeline integrando **AWS Secrets Manager** para la inyección dinámica de credenciales, eliminando los secretos codificados (hardcoded).
-* **Arquitectura de Sistemas y Automatización:** Desarrollé un microservicio de notificaciones orientado a eventos desde cero utilizando **Terraform** (SQS/Lambda), automatizando por completo las notificaciones a los usuarios y desacoplando tareas asíncronas para eliminar cuellos de botella en el procesamiento en segundo plano.
-* **Migración de Infraestructura y Eficiencia de Costos:** Lideré la migración de Azure a AWS ECS/Fargate, rediseñando la arquitectura de despliegue para mejorar la escalabilidad y la eficiencia operativa.
-* **Arquitectura de Identidad y Migraciones IAM:** Diseñé un flujo de autenticación personalizado utilizando **AWS Cognito** como base de datos centralizada de usuarios para una arquitectura híbrida Azure-AWS. Posteriormente, lideré una migración de usuarios fluida y sin pérdida de datos hacia **Clerk**, y configuré flujos robustos de **OAuth** (Google/Apple) para reducir drásticamente la carga operativa y acelerar el desarrollo de las funcionalidades principales.
-* **Escalabilidad y Rendimiento de APIs:** Optimicé el rendimiento (throughput) de las integraciones nutricionales de terceros (Edamam API) mediante la implementación estratégica de caché en memoria y ALB Sticky Sessions, disminuyendo directamente la latencia de las solicitudes del usuario final en 2 segundos completos.
-* **Diseño de Redes y Seguridad:** Diseñé redes VPC seguras, incluyendo VPC Peering y Endpoints de VPC de Interfaz, garantizando una comunicación privada de mínimo privilegio entre los servicios distribuidos y asegurando los datos confidenciales de los usuarios.
+* **Full-Stack & Mobile Development:** Diseñé e implementé la arquitectura mobile-first y web app desde cero hasta producción para **Mynu App** (iOS/Android) utilizando **React Native (Expo)** y plataformas web como **app.mynubaby.cl** y **mi.mynu.ai** con **React**, asegurando una integración fluida con los microservicios backend.
+* **Client-Side Optimization & State Management:** Optimicé el rendimiento client-side e implementé estrategias eficientes de manejo de estado y caching con **TanStack Query**, reduciendo la latencia percibida por el usuario y garantizando estabilidad en entornos de producción mobile y web.
+* **Cloud Infrastructure & Migration:** Lideré la migración cloud desde Azure hacia **AWS ECS/Fargate**, reestructurando el despliegue de contenedores para mejorar el throughput, la escalabilidad y la eficiencia de costos.
+* **Infrastructure as Code (IaC):** Diseñé e implementé un microservicio de notificaciones event-driven utilizando **Terraform** (SQS & Lambda), desacoplando tareas asíncronas y eliminando cuellos de botella en el procesamiento del backend.
+* **IAM & Authentication Architecture:** Diseñé un sistema de autenticación personalizado utilizando **AWS Cognito** en una arquitectura híbrida; posteriormente ejecuté una migración de usuarios a **Clerk** con cero downtime y cero pérdida de datos, integrando flujos personalizados de OAuth con Google y Apple.
+* **CI/CD & Security Automation:** Construí pipelines de despliegue automatizados utilizando **GitHub Actions**, Environments y **AWS Secrets Manager** para la inyección dinámica de credenciales, eliminando el uso de credenciales hardcodeadas.
+* **Performance Engineering:** Reduje la latencia de respuesta en 2 segundos en integraciones con APIs de terceros (Edamam API) mediante la implementación de mecanismos de in-memory caching y ALB Sticky Sessions.
+* **Network & Security Design:** Configuré topologías de VPC seguras con VPC Peering e Interface Endpoints para garantizar una comunicación privada bajo el principio de menor privilegio entre servicios distribuidos.
 
-### **Software Engineer** – Zippedi
-*(Jun 2022 – Nov 2023) | Santiago, Chile*
-* **Arquitectura de Aplicaciones:** Colaboré en el diseño y desarrollo de backends escalables web y móviles, centrándome en el manejo eficiente de datos para entornos de alto tráfico.
-* **Ingeniería de Rendimiento:** Optimicé el rendimiento del backend para servicios basados en PostgreSQL, aplicando técnicas de optimización de consultas y patrones de diseño de APIs para mejorar el throughput del sistema.
-* **Estandarización de Entornos:** Utilicé **Docker** para contenedorizar los entornos de desarrollo, eliminando las discrepancias de configuración y permitiendo pruebas locales más rápidas para el equipo de ingeniería.
+### **Software Engineer** – Zippedi Inc.
+*(Jun 2022 – Oct 2023) | Santiago, Chile*
+* **Full-Stack & Mobile Engineering:** Desarrollé funcionalidades clave e implementé mejoras continuas para aplicaciones móviles y plataformas web orientadas a clientes, trabajando tanto en ciclos de desarrollo de largo plazo (Shape-Up) como en sprints ágiles para despliegue rápido de features y bug fixes.
+* **Internal QA Tooling & Platforms:** Implementé features y mantuve herramientas en la plataforma web para el equipo de QA, optimizando los ciclos de validación de software interno.
 
-### **Junior Cybersecurity Engineer (Intern)** – NTT Data Chile
-*(Ene 2022 – Mar 2022) | Santiago, Chile*
-* **Evaluación de Arquitectura de Redes:** Llevé a cabo análisis estructurales de arquitecturas de red basadas en Azure para identificar vulnerabilidades de seguridad y recomendar estrategias de fortificación (hardening) para clientes corporativos.
-* **Gobernanza y Políticas:** Asistí en el desarrollo de políticas de prevención de ciberataques, asegurando que las arquitecturas nativas de la nube estuvieran alineadas con rigurosos marcos de seguridad corporativos.
+### **Junior Cybersecurity Engineer (Intern)** – NTT DATA Europe & LATAM
+*(Ene 2022 – Feb 2022) | Santiago, Chile*
+* **Cloud Security & Policy:** Evalué topologías de red en Azure para clientes corporativos, identificando vulnerabilidades e implementando marcos de hardening cloud-native.
+* **Threat Modeling & Governance Research:** Investigué y documenté metodologías de Cyber Kill Chain para fortalecer el análisis de vulnerabilidades y el modelado de amenazas; realicé investigaciones de seguridad alineadas con el estándar ISO 27001 para respaldar estrategias de cumplimiento y gestión de riesgos.
 
-### **Operations Engineer (Intern)** – ITD Chile
+### **Operations Engineer (Intern)** – ITD Telecom
 *(Ene 2021 – Ago 2021) | Santiago, Chile*
-* **Infraestructura On-Premise:** Configuré y administré entornos de alojamiento locales utilizando **Proxmox** VE, adquiriendo experiencia fundamental en hipervisores bare-metal y asignación de recursos.
-* **Operaciones de Red y Seguridad:** Implementé una VPN corporativa interna segura y utilicé **Wireshark** para el análisis de red a nivel de paquetes, solucionando de manera efectiva cuellos de botella en la conectividad.
-* **Ingeniería de Confiabilidad:** Mantuve los despliegues de servidores en producción y desarrollé políticas internas de SLA, estableciendo una base sólida en confiabilidad operativa y monitoreo de sistemas.
+* **Hosting Infrastructure Support & Internal Tooling:** Proporcioné soporte técnico a la plataforma de hosting y desarrollé herramientas internas para mejorar la eficiencia operacional.
+* **Service Management & GLPI Implementation:** Trabajé en la implementación de GLPI para optimizar las operaciones de TI internas y el seguimiento de tickets.
+* **Infrastructure Monitoring:** Monitoreé la salud y las métricas de rendimiento de la infraestructura de hosting utilizando **Cacti**.
+* **SLA & Process Governance:** Contribuí en el desarrollo de políticas internas de SLA para optimizar los flujos de trabajo generales de la empresa.
+
+### **Ayudante Docente y de Laboratorio** – Universidad Técnica Federico Santa María
+*(Ago 2019 – Dic 2022) | Santiago, Chile*
+* **Ayudante de Gestión de Proyectos de Informática** *(Abr 2022 – Dic 2022)*
+* **Ayudante del Curso de Estructuras de Datos** *(Mar 2020 – Jul 2022)*: Apoyo en cátedras, preparación y repaso de material de estudio, y revisión de tareas de código y teoría.
+* **Ayudante del Curso de Introducción a la Ingeniería** *(Ago 2020 – Ene 2021)*: Apoyo pedagógico, dictado de ayudantías y evaluación de trabajos prácticos.
+* **Ayudante del Curso de Programación en Python** *(Mar 2020 – Jul 2020)*: Guía técnica en conceptos fundamentales de programación y resolución de ejercicios.
+* **Ayudante de Laboratorio** *(Ago 2019 – Oct 2019)*: Mantenimiento preventivo y correctivo del parque computacional de los laboratorios del departamento.
 
 ---
 

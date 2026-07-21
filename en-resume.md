@@ -18,29 +18,39 @@
 
 ### **Systems & Cloud Engineer (Official Title: Software Engineer) - Mynu.ai**
 *(Mar 2024 – Present) | Santiago, Chile*
-* **CI/CD & Deployment Automation:** Architected and deployed the company's automated release pipeline from scratch utilizing **GitHub Actions** and **GitHub Environments**. Streamlined containerized deployments and secured the pipeline by integrating **AWS Secrets Manager** for dynamic credential injection, eliminating hardcoded secrets.
-* **Systems Architecture & Automation:** Engineered an event-driven notification microservice from the ground up using **Terraform** (SQS/Lambda), fully automating user notifications and decoupling async tasks to eliminate background processing bottlenecks.
-* **Infrastructure Migration & Cost Efficiency:** Led the migration from Azure to AWS ECS/Fargate, redesigning the deployment architecture to improve scalability and operational efficiency.
-* **Identity Architecture & IAM Migrations:** Engineered a custom authentication flow using **AWS Cognito** as a centralized user database for a hybrid Azure-AWS architecture. Subsequently led a seamless, zero-data-loss user migration to **Clerk**, and configured robust **OAuth** flows (Google/Apple) to drastically reduce operational overhead and accelerate core feature development.
-* **API Scalability & Performance:** Optimized the throughput of third-party nutritional integrations (Edamam API) by implementing strategic in-memory caching and ALB Sticky Sessions, directly decreasing end-user request latency by a full 2 seconds.
-* **Network & Security Design:** Designed secure VPC networking, including VPC Peering and Interface VPC Endpoints, ensuring least-privilege private communication between distributed services and securing sensitive user data.
+* **Full-Stack & Mobile Development:** Designed and implemented the mobile-first and web app architecture from the ground up to production for **Mynu App** (iOS/Android) using **React Native (Expo)** and web platforms such as **app.mynubaby.cl** and **mi.mynu.ai** with **React**, ensuring seamless integration with backend microservices.
+* **Client-Side Optimization & State Management:** Optimized client-side performance and implemented efficient state management and caching strategies with **TanStack Query**, reducing perceived user latency and ensuring stability across mobile and web production environments.
+* **Cloud Infrastructure & Migration:** Led the cloud migration from Azure to **AWS ECS/Fargate**, restructuring container deployment to improve throughput, scalability, and cost efficiency.
+* **Infrastructure as Code (IaC):** Designed and implemented an event-driven notifications microservice using **Terraform** (SQS & Lambda), decoupling asynchronous tasks and eliminating backend processing bottlenecks.
+* **IAM & Authentication Architecture:** Designed a custom authentication system using **AWS Cognito** in a hybrid architecture; subsequently executed a user migration to **Clerk** with zero downtime and zero data loss, integrating custom OAuth flows with Google and Apple.
+* **CI/CD & Security Automation:** Built automated deployment pipelines using **GitHub Actions**, Environments, and **AWS Secrets Manager** for dynamic credential injection, eliminating the use of hardcoded credentials.
+* **Performance Engineering:** Reduced response latency by 2 seconds on third-party API integrations (Edamam API) by implementing in-memory caching mechanisms and ALB Sticky Sessions.
+* **Network & Security Design:** Configured secure VPC topologies with VPC Peering and Interface Endpoints to ensure least-privilege private communication between distributed services.
 
-### **Software Engineer** – Zippedi
-*(Jun 2022 – Nov 2023) | Santiago, Chile*
-* **Application Architecture:** Collaborated on the design and development of scalable web and mobile backends, focusing on efficient data handling for high-traffic environments.
-* **Performance Engineering:** Optimized backend performance for PostgreSQL-backed services, applying query optimization techniques and API design patterns to improve system throughput.
-* **Environment Standardization:** Leveraged **Docker** to containerize development environments, eliminating configuration drift and enabling faster local testing for the engineering team.
+### **Software Engineer** – Zippedi Inc.
+*(Jun 2022 – Oct 2023) | Santiago, Chile*
+* **Full-Stack & Mobile Engineering:** Developed key features and delivered continuous improvements for customer-facing mobile applications and web platforms, working across both long-term development cycles (Shape-Up) and agile sprints for rapid feature delivery and bug fixes.
+* **Internal QA Tooling & Platforms:** Implemented features and maintained tooling on the web platform for the QA team, streamlining internal software validation cycles.
 
-### **Junior Cybersecurity Engineer (Intern)** – NTT Data Chile
-*(Jan 2022 – Mar 2022) | Santiago, Chile*
-* **Network Architecture Assessment:** Conducted structural analysis of Azure-based network architectures to identify security vulnerabilities and recommend hardening strategies for corporate clients.
-* **Governance & Policy:** Assisted in developing cyberattack prevention policies, ensuring cloud-native architectures aligned with rigorous corporate security frameworks.
+### **Junior Cybersecurity Engineer (Intern)** – NTT DATA Europe & LATAM
+*(Jan 2022 – Feb 2022) | Santiago, Chile*
+* **Cloud Security & Policy:** Assessed Azure network topologies for corporate clients, identifying vulnerabilities and implementing cloud-native hardening frameworks.
+* **Threat Modeling & Governance Research:** Researched and documented Cyber Kill Chain methodologies to strengthen vulnerability analysis and threat modeling; conducted security research aligned with the ISO 27001 standard to support compliance and risk management strategies.
 
-### **Operations Engineer (Intern)** – ITD Chile
+### **Operations Engineer (Intern)** – ITD Telecom
 *(Jan 2021 – Aug 2021) | Santiago, Chile*
-* **On-Premises Infrastructure:** Configured and managed on-premises hosting environments utilizing **Proxmox** VE, gaining foundational expertise in bare-metal hypervisors and resource allocation.
-* **Network Operations & Security:** Deployed a secure internal corporate VPN and utilized **Wireshark** for packet-level network analysis, effectively troubleshooting and resolving connectivity bottlenecks.
-* **Reliability Engineering:** Maintained live server deployments and developed internal SLA policies, establishing a strong baseline in operational reliability and systems monitoring.
+* **Hosting Infrastructure Support & Internal Tooling:** Provided technical support for the hosting platform and developed internal tools to improve operational efficiency.
+* **Service Management & GLPI Implementation:** Worked on implementing GLPI to streamline internal IT operations and ticket tracking.
+* **Infrastructure Monitoring:** Monitored hosting infrastructure health and performance metrics using **Cacti**.
+* **SLA & Process Governance:** Contributed to developing internal SLA policies to streamline company-wide workflows.
+
+### **Teaching & Lab Assistant** – Universidad Técnica Federico Santa María
+*(Aug 2019 – Dec 2022) | Santiago, Chile*
+* **IT Project Management Teaching Assistant** *(Apr 2022 – Dec 2022)*
+* **Data Structures Course Assistant** *(Mar 2020 – Jul 2022)*: Supported lectures, prepared and reviewed study materials, and graded code and theory assignments.
+* **Introduction to Engineering Course Assistant** *(Aug 2020 – Jan 2021)*: Provided pedagogical support, taught teaching sessions, and evaluated practical assignments.
+* **Python Programming Course Assistant** *(Mar 2020 – Jul 2020)*: Provided technical guidance on core programming concepts and exercise resolution.
+* **Lab Assistant** *(Aug 2019 – Oct 2019)*: Performed preventive and corrective maintenance of the department's lab computer fleet.
 
 ---
 
