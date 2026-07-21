@@ -62,8 +62,8 @@
 
 ## **EDUCATION**
 ### **Universidad Técnica Federico Santa María**
-*Bachelor of Science (B.Sc.) in Computer Science Engineering (5-year Professional Degree)*
 *(2017 – 2023) | Santiago, Chile*
+*Bachelor of Science (B.Sc.) in Computer Science Engineering (5-year Professional Degree)*
 
 ---
 

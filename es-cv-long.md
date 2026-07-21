@@ -62,8 +62,8 @@
 
 ## **EDUCACIÓN**
 ### **Universidad Técnica Federico Santa María**
-*Licenciatura en Ciencias (B.Sc.) en Ingeniería Civil Informática (Grado Profesional de 5 años)*
 *(2017 – 2023) | Santiago, Chile*
+*Licenciatura en Ciencias (B.Sc.) en Ingeniería Civil Informática (Grado Profesional de 5 años)*
 
 ---
 
