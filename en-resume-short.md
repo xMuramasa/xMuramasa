@@ -13,7 +13,7 @@
 
 ## **PROFESSIONAL EXPERIENCE**
 
-### **Systems & Cloud Engineer (Official Title: Software Engineer) - Mynu.ai**
+### **Full Stack Software Engineer - Mynu.ai**
 *(Mar 2024 – Present) | Santiago, Chile*
 * Built Mynu App (iOS/Android) mobile-first architecture and web platforms from zero to production using React Native (Expo) and React.
 * Led Azure→AWS ECS/Fargate migration and built a Terraform (SQS/Lambda) event-driven notifications microservice.
