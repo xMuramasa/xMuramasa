@@ -2,7 +2,7 @@
 
 # Hi, I'm Martín Salinas Scussolin 👋
 
-### Systems & Cloud Engineer
+### Software & Cloud Engineer
 
 Building scalable backend systems, cloud infrastructure, and automation with a focus on reliability, security, and maintainability.
 
@@ -17,7 +17,7 @@ Building scalable backend systems, cloud infrastructure, and automation with a f
 
 ## About Me
 
-I'm a **Systems & Cloud Engineer** with extensive experience building from-the-ground-up mobile and web platforms alongside cloud-native infrastructure.
+I'm a **Software & Cloud Engineer** with extensive experience building from-the-ground-up mobile and web platforms alongside cloud-native infrastructure.
 
 My expertise lies in designing scalable systems, automating infrastructure with **Terraform**, managing secure identity platforms, and orchestrating full-stack development cycles—from **Expo/React** client-side implementation to **NestJS** backend services and **AWS** deployment automation.
 
@@ -27,7 +27,7 @@ I enjoy working across the entire stack—ensuring that mobile clients, backend 
 
 ## 🚀 Work
 
-- ☁️ AWS Cloud Architecture & Migration (Azure → AWS ECS/Fargate)
+- ☁️ Cloud Architecture & Migration
 - 📱 Mobile-First Development (React Native/Expo & React)
 - ⚙️ Infrastructure as Code (Terraform)
 - 🔐 Identity & Access Management (AWS Cognito, Clerk, OAuth)
@@ -73,10 +73,3 @@ I enjoy working across the entire stack—ensuring that mobile clients, backend 
 | **API Performance Tuning**    | TanStack Query, In-Memory Caching, ALB     | Cut third-party API latency by 2 seconds.                                  |
 
 ---
-
-### 📈 My GitHub Stats
-
-<p align="center">
-  <img height="180" src="https://github-readme-stats.vercel.app/api?username=xMuramasa&show_icons=true&theme=tokyonight&hide_border=true&count_private=true"/>
-  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=xMuramasa&layout=compact&theme=tokyonight&hide_border=true"/>
-</p>
