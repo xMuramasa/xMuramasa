@@ -1,0 +1,75 @@
+name: CV
+
+# Build the CV PDFs from resume/*.json with resume-generator and publish them on the `cv` release,
+# which the profile README links to.
+on:
+  push:
+    branches: [main]
+    paths: ["resume/**", ".github/workflows/cv.yml"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: cv
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/checkout@v7
+        with:
+          repository: xMuramasa/resume-generator
+          path: resume-generator
+
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+
+      # Ubuntu 24.04 blocks the unprivileged user namespaces Chrome's sandbox needs.
+      - name: Allow Chrome's sandbox
+        run: sudo sysctl -w kernel.apparmor_restrict_unprivileged_userns=0
+
+      - name: Build PDFs
+        working-directory: resume-generator
+        env:
+          RESUME_SRC: ${{ github.workspace }}/resume
+          RESUME_OUT: ${{ github.workspace }}/dist
+          CHROME_BIN: /usr/bin/google-chrome
+        run: python3 main.py
+
+      - name: Check page counts
+        run: |
+          python3 -m pip install --quiet pymupdf
+          python3 - <<'EOF'
+          import glob, pymupdf
+          limit = {"short": 1, "long": 2}
+          bad = []
+          for p in sorted(glob.glob("dist/*.pdf")):
+              pages = pymupdf.open(p).page_count
+              size = "long" if p.endswith("long.pdf") else "short"
+              print(f"{p}: {pages} page(s), limit {limit[size]}")
+              if pages > limit[size]:
+                  bad.append(p)
+          if len(glob.glob("dist/*.pdf")) != 4:
+              raise SystemExit("expected 4 PDFs")
+          if bad:
+              raise SystemExit(f"too long: {bad}")
+          EOF
+
+      - name: Publish to the cv release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release view cv >/dev/null 2>&1 || gh release create cv --title "CV" --notes "Built by the CV workflow."
+          gh release upload cv dist/*.pdf --clobber
+          gh release edit cv --notes "Built from ${GITHUB_SHA::7} by the CV workflow, $(date -u +%Y-%m-%d)."
+
+      - uses: actions/upload-artifact@v7
+        with:
+          name: cv
+          path: dist/

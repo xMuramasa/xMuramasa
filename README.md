@@ -4,72 +4,92 @@
 
 ### Software & Cloud Engineer
 
-Building scalable backend systems, cloud infrastructure, and automation with a focus on reliability, security, and maintainability.
+Kubernetes, Terraform and GitOps on AWS, plus the mobile and web apps that run on them.
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-x--muramasa.dev-C9A227?style=for-the-badge)](https://x-muramasa.dev/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-xmuramasa-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/xmuramasa)
-[![GitHub](https://img.shields.io/badge/GitHub-xmuramasa-181717?style=for-the-badge&logo=github)](https://github.com/xmuramasa)
-[![Email](https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail)](mailto:martin.salinas.scussolin@gmail.com)
+[![Email](https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:martin.salinas.scussolin@gmail.com)
+
+📄 **CV:** [English](https://github.com/xMuramasa/xMuramasa/releases/download/cv/en-resume-short.pdf) ([full](https://github.com/xMuramasa/xMuramasa/releases/download/cv/en-resume-long.pdf)) · [Español](https://github.com/xMuramasa/xMuramasa/releases/download/cv/es-cv-short.pdf) ([completo](https://github.com/xMuramasa/xMuramasa/releases/download/cv/es-cv-long.pdf))
 
 </div>
 
 ---
 
-## About Me
+## About me
 
-I'm a **Software & Cloud Engineer** with extensive experience building from-the-ground-up mobile and web platforms alongside cloud-native infrastructure.
+I'm a Software & Cloud Engineer in Santiago, Chile. At **Mynu** I'm the only infrastructure engineer: I planned,
+executed and led the move of every service from ECS/Fargate to **Kubernetes (k3s)** on AWS, with all infrastructure
+in **Terraform** and deploys through **ArgoCD**, and cut monthly cloud costs by about **70%**. Before that I built
+Mynu's mobile and web apps from zero to production.
 
-My expertise lies in designing scalable systems, automating infrastructure with **Terraform**, managing secure identity platforms, and orchestrating full-stack development cycles—from **Expo/React** client-side implementation to **NestJS** backend services and **AWS** deployment automation.
-
-I enjoy working across the entire stack—ensuring that mobile clients, backend services, and cloud architecture are tightly integrated, secure, and high-performing.
-
----
-
-## 🚀 Work
-
-- ☁️ Cloud Architecture & Migration
-- 📱 Mobile-First Development (React Native/Expo & React)
-- ⚙️ Infrastructure as Code (Terraform)
-- 🔐 Identity & Access Management (AWS Cognito, Clerk, OAuth)
-- 🔄 CI/CD & Security Automation (GitHub Actions, Secrets Manager)
-- 📈 Performance & Cost Optimization
-- 🛡️ Cybersecurity & Threat Modeling (Cyber Kill Chain, ISO 27001)
+I use AI coding agents (Claude Code) for most of the implementation; the architecture, the review and the hand edits
+are mine. At home I run a homelab and build my own tools the same way.
 
 ---
 
-## 🛠 Tech Stack
+## 🚀 Work highlights
 
-### ☁️ Cloud, Infra & Automation
+| Project                       | Technologies                                  | Impact                                                                                        |
+| ----------------------------- | --------------------------------------------- | --------------------------------------------------------------------------------------------- |
+| **Kubernetes migration**      | k3s, Terraform, ArgoCD, AWS                   | Every service off ECS/Fargate, ~70% lower monthly cloud cost. Planned and led alone.          |
+| **Database consolidation**    | AWS Aurora, RDS                               | Three Aurora instances merged into one RDS instance.                                          |
+| **GitOps CI/CD**              | GitHub Actions, ArgoCD, Secrets Manager       | ARM64 images, tag write-back to the manifests repo, automated deploys, no hardcoded secrets.  |
+| **Monitoring**                | Prometheus, Grafana, Alertmanager, CloudWatch | Resource-utilization tracking that guided the cost work.                                      |
+| **Report generation service** | Node, SQS, S3, React-PDF                      | Queue-driven PDFs for bulk B2B distribution, tested with real users at ~150 queued reports.   |
+| **AI development workflow**   | Claude Code plugins                           | Team skills from spec to issue, stacked PRs and automated review, synced org-wide.            |
+| **Mynu App & web platforms**  | React Native (Expo), React, TanStack Query    | Mobile and web built from zero to production.                                                 |
+| **IAM migration**             | AWS Cognito, Clerk, OAuth                     | Zero-downtime, zero-data-loss user migration with Google and Apple OAuth.                     |
+| **Azure → AWS migration**     | AWS ECS/Fargate, Terraform, SQS, Lambda       | First cloud move, plus an event-driven notifications microservice.                            |
+| **API performance**           | In-memory caching, ALB                        | Cut third-party API latency by 2 seconds.                                                     |
 
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
+---
+
+## 🧰 Open source
+
+| Repo                                                                          | What it is                                                                                           |
+| ----------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- |
+| [news-reader](https://github.com/xMuramasa/news-reader)                       | Daily AI news briefings as schema-validated JSON editions; Bun, MongoDB, React 19, shadcn/ui.        |
+| [img-transformer](https://github.com/xMuramasa/img-transformer)               | FastAPI + Pillow: convert and resize images, batches and zips, optimize for PDFs, strip backgrounds. |
+| [on-site-meeting-logger](https://github.com/xMuramasa/on-site-meeting-logger) | Local-first pipeline from meeting recordings to transcripts, minutes and validated PDFs.             |
+| [resume-generator](https://github.com/xMuramasa/resume-generator)             | JSON → Markdown, HTML and PDF. It builds the CV above from [`resume/`](resume/).                     |
+| [vireo](https://github.com/xMuramasa/vireo)                                   | HLS video service with Bun, Hono, Drizzle and Vite.                                                  |
+
+Private, but happy to talk about them: **Trismegistus**, a Go WebSocket relay with native SwiftUI (macOS) and
+Jetpack Compose (Android) apps for a self-hosted AI agent, and the **homelab** it runs on (25 Docker Compose
+containers behind Caddy, Tailscale, monitoring and restic backups).
+
+---
+
+## 🛠 Tech stack
+
+### ☁️ Cloud & platform
+
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
+![Argo CD](https://img.shields.io/badge/Argo_CD-EF7B4D?style=for-the-badge&logo=argo&logoColor=white)
 ![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
+![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)
+![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)
 
-### 💻 Backend & Frontend
+### 💻 Backend & apps
 
-![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white)
-![Expo](https://img.shields.io/badge/Expo-000020?style=for-the-badge&logo=expo&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-5FA04E?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![Expo](https://img.shields.io/badge/Expo-000020?style=for-the-badge&logo=expo&logoColor=white)
+![Swift](https://img.shields.io/badge/Swift-F05138?style=for-the-badge&logo=swift&logoColor=white)
+![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)
 
-### 🔐 Identity & Databases
+### 🔐 Identity, data & AI
 
 ![Clerk](https://img.shields.io/badge/Clerk-6C47FF?style=for-the-badge&logo=clerk&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![DynamoDB](https://img.shields.io/badge/DynamoDB-4053D6?style=for-the-badge&logo=amazondynamodb&logoColor=white)
-
----
-
-## 🏗 Engineering Projects
-
-| Project                       | Technologies                               | Impact                                                                     |
-| ----------------------------- | ------------------------------------------ | -------------------------------------------------------------------------- |
-| **Mynu App Foundation**       | React Native (Expo), React, TanStack Query | Mobile-first + web architecture built from zero to production.             |
-| **Cloud Migration**           | AWS ECS/Fargate, Terraform                 | Migrated Azure → AWS, improving throughput, scalability & cost efficiency. |
-| **Notification Microservice** | Terraform, SQS, Lambda                     | Event-driven service decoupling async tasks from the backend.              |
-| **IAM Migration**             | AWS Cognito, Clerk, OAuth                  | Zero-downtime, zero-data-loss user migration with Google/Apple OAuth.      |
-| **API Performance Tuning**    | TanStack Query, In-Memory Caching, ALB     | Cut third-party API latency by 2 seconds.                                  |
-
----
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+![DynamoDB](https://img.shields.io/badge/DynamoDB-4053D6?style=for-the-badge)
+![Claude Code](https://img.shields.io/badge/Claude_Code-D97757?style=for-the-badge&logo=claude&logoColor=white)
