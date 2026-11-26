@@ -52,6 +52,7 @@ are mine. At home I run a homelab and build my own tools the same way.
 | [hermes-relay](https://github.com/xMuramasa/hermes-relay)                     | Go WebSocket relay for a self-hosted AI agent: resumable runs, device pairing, a contract-tested protocol. |
 | [trismegistus-android](https://github.com/xMuramasa/trismegistus-android)     | Native Android client for the relay: Kotlin, Jetpack Compose, live tool progress and approvals.            |
 | [trismegistus-mac](https://github.com/xMuramasa/trismegistus-mac)             | Native macOS client for the relay: a SwiftUI menu bar app and window, Swift 6 strict concurrency.          |
+| [caduceus](https://github.com/xMuramasa/caduceus)                             | Go engine of my AI development workflow: issue → headless Claude Code run → gated PR merge queue.          |
 | [news-reader](https://github.com/xMuramasa/news-reader)                       | Daily AI news briefings as schema-validated JSON editions; Bun, MongoDB, React 19, shadcn/ui.              |
 | [img-transformer](https://github.com/xMuramasa/img-transformer)               | FastAPI + Pillow: convert and resize images, batches and zips, optimize for PDFs, strip backgrounds.       |
 | [on-site-meeting-logger](https://github.com/xMuramasa/on-site-meeting-logger) | Local-first pipeline from meeting recordings to transcripts, minutes and validated PDFs.                   |
@@ -59,8 +60,10 @@ are mine. At home I run a homelab and build my own tools the same way.
 | [vireo](https://github.com/xMuramasa/vireo)                                   | HLS video service with Bun, Hono, Drizzle and Vite.                                                        |
 
 The first three are **Trismegistus**, companion apps for a self-hosted AI agent: a relay and two native clients
-sharing one contract-tested protocol. Private, but happy to talk about it: the **homelab** it all runs on (25 Docker
-Compose containers behind Caddy, Tailscale, monitoring and restic backups).
+sharing one contract-tested protocol. **Caduceus** is the engine that builds them: it turns a ready issue into a
+Claude Code run in its own worktree and lines the result up for review and merge. Private, but happy to talk about
+it: the **homelab** it all runs on (25 Docker Compose containers behind Caddy, Tailscale, monitoring and restic
+backups).
 
 ---
 
