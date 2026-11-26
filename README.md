@@ -51,14 +51,15 @@ are mine. At home I run a homelab and build my own tools the same way.
 | ----------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- |
 | [hermes-relay](https://github.com/xMuramasa/hermes-relay)                     | Go WebSocket relay for a self-hosted AI agent: resumable runs, device pairing, a contract-tested protocol. |
 | [trismegistus-android](https://github.com/xMuramasa/trismegistus-android)     | Native Android client for the relay: Kotlin, Jetpack Compose, live tool progress and approvals.            |
+| [trismegistus-mac](https://github.com/xMuramasa/trismegistus-mac)             | Native macOS client for the relay: a SwiftUI menu bar app and window, Swift 6 strict concurrency.          |
 | [news-reader](https://github.com/xMuramasa/news-reader)                       | Daily AI news briefings as schema-validated JSON editions; Bun, MongoDB, React 19, shadcn/ui.              |
 | [img-transformer](https://github.com/xMuramasa/img-transformer)               | FastAPI + Pillow: convert and resize images, batches and zips, optimize for PDFs, strip backgrounds.       |
 | [on-site-meeting-logger](https://github.com/xMuramasa/on-site-meeting-logger) | Local-first pipeline from meeting recordings to transcripts, minutes and validated PDFs.                   |
 | [resume-generator](https://github.com/xMuramasa/resume-generator)             | JSON → Markdown, HTML and PDF. It builds the CV above from [`resume/`](resume/).                           |
 | [vireo](https://github.com/xMuramasa/vireo)                                   | HLS video service with Bun, Hono, Drizzle and Vite.                                                        |
 
-The relay and the Android app are two thirds of **Trismegistus**, companion apps for a self-hosted AI agent. Private,
-but happy to talk about them: its native **macOS app** (SwiftUI) and the **homelab** it all runs on (25 Docker
+The first three are **Trismegistus**, companion apps for a self-hosted AI agent: a relay and two native clients
+sharing one contract-tested protocol. Private, but happy to talk about it: the **homelab** it all runs on (25 Docker
 Compose containers behind Caddy, Tailscale, monitoring and restic backups).
 
 ---
