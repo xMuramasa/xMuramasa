@@ -2,6 +2,10 @@
   "name": "MARTÍN SALINAS SCUSSOLIN",
   "sections": [
     {
+      "title": "PERFIL",
+      "text": "Saco los proyectos adelante de principio a fin. Llevo más de 4 años desarrollando software, de la nube a las apps, apoyado en agentes de IA. En Mynu reduje los costos cloud cerca de un 70% y quiero crecer hacia la arquitectura de software."
+    },
+    {
       "title": "HABILIDADES TÉCNICAS",
       "bullets": [
         "**Cloud e IaC:** AWS (EC2, ECS, Fargate, Lambda, RDS, Aurora, VPC, SQS, S3, Secrets Manager), Azure (redes, VPN), Terraform, CloudFormation, Proxmox VE.",
@@ -104,12 +108,12 @@
       ]
     },
     {
-      "title": "SOBRE MÍ",
-      "text": "Software and Cloud Engineer y único ingeniero de infraestructura de Mynu, donde migré la plataforma a Kubernetes y reduje los costos cloud cerca de un 70%. Sólida base en ingeniería backend y gestión de identidades y accesos; diseño sistemas distribuidos escalables y seguros, defino todo como código y uso agentes de IA para la mayor parte de la implementación, manteniendo la arquitectura y la revisión."
+      "title": "INTERESES",
+      "text": "Proyectos personales · Homelab · Nuevas tecnologías · Series · Videojuegos"
     }
   ],
   "title": "Software & Cloud Engineer",
-  "location": "Santiago, Chile",
+  "location": "Santiago, Chile · Abierto a trabajo remoto · Inglés nivel profesional",
   "contact": [
     {
       "text": "martin.salinas.scussolin@gmail.com",

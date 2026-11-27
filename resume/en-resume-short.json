@@ -2,6 +2,10 @@
   "name": "MARTÍN SALINAS SCUSSOLIN",
   "sections": [
     {
+      "title": "SUMMARY",
+      "text": "I get things done end to end, from cloud to mobile, with an agentic workflow; at Mynu I cut cloud costs ~70%."
+    },
+    {
       "title": "TECHNICAL SKILLS",
       "bullets": [
         "**Cloud & Platform:** AWS (EC2, ECS, Lambda, RDS, SQS, S3), Kubernetes (k3s), ArgoCD, Terraform, Grafana.",
@@ -77,14 +81,10 @@
         "**[Argo CD and Argo Rollouts for GitOps: The Definitive Guide](https://www.udemy.com/certificate/UC-49965bee-53e3-4448-91a5-6d686af652a4/)** (Udemy, Nov 2026)",
         "**Docker Mastery:** Kubernetes & Swarm (Udemy) · **Go - The Complete Guide** (Udemy)"
       ]
-    },
-    {
-      "title": "ABOUT ME",
-      "text": "Sole infrastructure engineer who cut a production platform's cloud costs ~70% with Kubernetes, Terraform and GitOps."
     }
   ],
   "title": "Software & Cloud Engineer",
-  "location": "Santiago, Chile",
+  "location": "Santiago, Chile · Open to remote · Professional English",
   "contact": [
     {
       "text": "martin.salinas.scussolin@gmail.com",
