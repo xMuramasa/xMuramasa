@@ -41,7 +41,6 @@ are mine. At home I run a homelab and build my own tools the same way.
 | **Mynu App & web platforms**  | React Native (Expo), React, TanStack Query    | Mobile and web built from zero to production.                                                 |
 | **IAM migration**             | AWS Cognito, Clerk, OAuth                     | Zero-downtime, zero-data-loss user migration with Google and Apple OAuth.                     |
 | **Azure → AWS migration**     | AWS ECS/Fargate, Terraform, SQS, Lambda       | First cloud move, plus an event-driven notifications microservice.                            |
-| **API performance**           | In-memory caching, ALB                        | Cut third-party API latency by 2 seconds.                                                     |
 
 ---
 

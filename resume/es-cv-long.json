@@ -3,19 +3,19 @@
   "sections": [
     {
       "title": "PERFIL",
-      "text": "Saco los proyectos adelante de principio a fin. Llevo más de 4 años desarrollando software, de la nube a las apps, apoyado en agentes de IA. En Mynu reduje los costos cloud cerca de un 70% y quiero crecer hacia la arquitectura de software."
+      "text": "Ingeniero de software y cloud con más de 4 años llevando proyectos de principio a fin, desde la infraestructura cloud hasta las apps móviles. Como único ingeniero de infraestructura de Mynu, reduje cerca de un 70 % los costos cloud. Trabajo con un flujo basado en agentes de IA y quiero crecer hacia la arquitectura de software."
     },
     {
       "title": "HABILIDADES TÉCNICAS",
       "bullets": [
         "**Cloud e IaC:** AWS (EC2, ECS, Fargate, Lambda, RDS, Aurora, VPC, SQS, S3, Secrets Manager), Azure (redes, VPN), Terraform, CloudFormation, Proxmox VE.",
         "**Kubernetes y GitOps:** Kubernetes (k3s), ArgoCD, Kustomize, KEDA, cert-manager, CI/CD con GitHub Actions, imágenes multi-arquitectura (ARM64).",
-        "**Observabilidad y Redes:** Prometheus, Grafana, Alertmanager, CloudWatch, Wireshark, Cacti, Security Groups.",
-        "**Arquitectura de Sistemas:** Microservicios, arquitectura orientada a eventos, procesamiento con colas, sistemas distribuidos, optimización de costos.",
+        "**Observabilidad y redes:** Prometheus, Grafana, Alertmanager, CloudWatch, Wireshark, Cacti, Security Groups.",
+        "**Arquitectura de sistemas:** Microservicios, arquitectura orientada a eventos, procesamiento con colas, sistemas distribuidos, optimización de costos.",
         "**IAM:** AWS Cognito, Clerk, OAuth, JWT, Google Cloud Service Accounts, Apple Developer.",
-        "**Backend y Datos:** Go, Python, TypeScript/Node.js, Bun, FastAPI, Docker; PostgreSQL, AWS Aurora, DynamoDB, MongoDB, SQLite.",
-        "**Apps y Autoalojamiento:** React Native (Expo), React, SwiftUI, Jetpack Compose, Docker Compose, Caddy, Tailscale.",
-        "**Desarrollo Asistido por IA:** Claude Code para la mayor parte de la implementación; la arquitectura y la revisión son mías."
+        "**Backend y datos:** Go, Python, TypeScript/Node.js, Bun, FastAPI, Docker; PostgreSQL, AWS Aurora, DynamoDB, MongoDB, SQLite.",
+        "**Apps y autoalojamiento:** React Native (Expo), React, SwiftUI, Jetpack Compose, Docker Compose, Caddy, Tailscale.",
+        "**Desarrollo con agentes de IA:** La arquitectura y la revisión son mías; los agentes de Claude Code hacen la mayor parte de la implementación."
       ]
     },
     {
@@ -24,20 +24,17 @@
         {
           "title": "Software Engineer (Cloud & Platform)",
           "org": "Mynu.ai",
-          "meta": "(Mar 2024 – Presente) | Santiago, Chile",
+          "meta": "(Mar 2024 – Actualidad) | Santiago, Chile",
           "bullets": [
-            "**Kubernetes Migration & Cost Reduction:** Como único ingeniero de infraestructura, planifiqué, ejecuté y lideré de principio a fin la migración de todos los servicios de AWS ECS/Fargate a Kubernetes (k3s) autogestionado en AWS, con toda la infraestructura en Terraform; reduje el gasto cloud mensual en ~70%.",
-            "**Database Consolidation:** Consolidé tres instancias Aurora en una sola instancia RDS y ejecuté las migraciones de datos.",
-            "**GitOps CI/CD:** Implementé ArgoCD: GitHub Actions construye imágenes ARM64 y actualiza el tag en el repo de manifiestos, ArgoCD despliega dev y prod y Secrets Manager inyecta las credenciales.",
-            "**Observability:** Inicié la iniciativa de monitoreo (Prometheus, Grafana, Alertmanager, alarmas de CloudWatch hacia Slack) para medir el uso de recursos y guiar la optimización de costos.",
-            "**Report Generation Service:** Construí un servicio de PDFs con colas (Node, SQS, S3, React-PDF) que sacó los reportes del navegador y permitió la distribución masiva B2B; probado con usuarios reales en lotes de ~150.",
-            "**AI Development Workflow:** Construí el marketplace de plugins de Claude Code del equipo: skills que llevan una solicitud de la especificación al issue, PRs apilados y revisión, un revisor automático de PRs con los errores conocidos del equipo y estándares de documentación; sincronizado a toda la organización, también para personas no técnicas.",
-            "**Shared Predisposition Library:** Consolidé en una librería TypeScript compartida los cálculos de predisposición genética que estaban dispersos entre aplicaciones.",
-            "**Full-Stack & Mobile Development:** Construí **Mynu App** (iOS/Android) con **React Native (Expo)** y las plataformas web **app.mynubaby.cl** y **mi.mynu.ai** con **React**, de cero a producción, con caching de TanStack Query.",
-            "**Earlier Platform Work:** Lideré la migración de Azure a AWS ECS/Fargate y construí un microservicio de notificaciones event-driven (SQS, Lambda) con Terraform.",
-            "**IAM & Authentication:** Diseñé la autenticación con AWS Cognito y luego migré a todos los usuarios a **Clerk** sin downtime ni pérdida de datos, con OAuth de Google y Apple.",
-            "**Performance & Networking:** Reduje en 2 s la latencia de una API de terceros (Edamam) con caching en memoria y ALB Sticky Sessions; diseñé redes VPC de mínimo privilegio con peering e interface endpoints.",
-            "**Ownership & Code Review:** Mantengo los sistemas de seguimiento de muestras de laboratorio y de gestión de kits, administro la organización de GitHub Enterprise (permisos y roles) y reviso código de mis compañeros y generado por IA."
+            "**Migración a Kubernetes y reducción de costos:** Como único ingeniero de infraestructura, planifiqué y lideré la migración de todos los servicios de AWS ECS/Fargate a Kubernetes (k3s) autogestionado en AWS, con toda la infraestructura en Terraform; reduje el gasto cloud mensual en ~70 %. También consolidé tres instancias Aurora en una sola instancia RDS y ejecuté las migraciones de datos.",
+            "**CI/CD con GitOps:** Implementé GitOps con ArgoCD; GitHub Actions construye imágenes ARM64 y actualiza el tag en el repo de manifiestos, ArgoCD despliega dev y prod y Secrets Manager inyecta las credenciales.",
+            "**Observabilidad:** Puse en marcha el monitoreo (Prometheus, Grafana, Alertmanager, alarmas de CloudWatch hacia Slack) para medir el uso de recursos, lo que guió la reducción de costos.",
+            "**Servicio de generación de reportes:** Construí un servicio de PDFs con colas (Node, SQS, S3, React-PDF) que sacó los reportes del navegador y permitió la distribución masiva B2B; probado con usuarios reales en lotes de ~150.",
+            "**Flujo de desarrollo con IA:** Creé el marketplace de plugins de Claude Code del equipo: skills que llevan una solicitud de la especificación al issue, PRs apilados y revisión, un revisor automático de PRs con los errores conocidos del equipo y estándares de documentación; sincronizado a toda la organización, también para personas no técnicas.",
+            "**Librería compartida de predisposición genética:** Reuní en una sola librería TypeScript los cálculos que estaban dispersos entre aplicaciones.",
+            "**Desarrollo full-stack y móvil:** Construí Mynu App (iOS/Android) con React Native (Expo) y las plataformas web app.mynubaby.cl y mi.mynu.ai con React y TanStack Query, de cero a producción.",
+            "**Mantención y revisión de código:** Mantengo los sistemas de seguimiento de muestras de laboratorio y de gestión de kits, administro la organización de GitHub Enterprise (permisos y roles) y reviso el código del equipo y el generado por IA.",
+            "**Plataforma, IAM y redes:** Lideré la migración previa de Azure a AWS ECS/Fargate y construí un microservicio de notificaciones orientado a eventos (SQS, Lambda) con Terraform; diseñé redes VPC de mínimo privilegio (peering, interface endpoints) y la autenticación con AWS Cognito, y luego migré a todos los usuarios a Clerk sin interrupciones ni pérdida de datos (OAuth de Google y Apple)."
           ]
         },
         {
@@ -45,8 +42,8 @@
           "org": "Zippedi Inc.",
           "meta": "(Jun 2022 – Oct 2023) | Santiago, Chile",
           "bullets": [
-            "**Full-Stack & Mobile Engineering:** Desarrollé funcionalidades clave e implementé mejoras continuas para aplicaciones móviles y plataformas web orientadas a clientes, trabajando tanto en ciclos de desarrollo de largo plazo (Shape-Up) como en sprints ágiles para despliegue rápido de features y bug fixes.",
-            "**Internal QA Tooling & Platforms:** Implementé features y mantuve herramientas en la plataforma web para el equipo de QA, optimizando los ciclos de validación de software interno."
+            "**App móvil para clientes:** Desarrollé funcionalidades para la app de clientes, en ciclos Shape-Up y sprints ágiles.",
+            "**Herramientas internas:** Renové la plataforma interna de gestión de tareas y agregué funcionalidades y mejoras a la plataforma interna de QA."
           ]
         },
         {
@@ -54,8 +51,8 @@
           "org": "NTT DATA Europe & LATAM",
           "meta": "(Ene 2022 – Feb 2022) | Santiago, Chile",
           "bullets": [
-            "**Cloud Security & Policy:** Evalué topologías de red en Azure para clientes corporativos, identificando vulnerabilidades e implementando marcos de hardening cloud-native.",
-            "**Threat Modeling & Governance Research:** Investigué y documenté metodologías de Cyber Kill Chain para fortalecer el análisis de vulnerabilidades y el modelado de amenazas; realicé investigaciones de seguridad alineadas con el estándar ISO 27001 para respaldar estrategias de cumplimiento y gestión de riesgos."
+            "**Seguridad cloud:** Evalué redes Azure de clientes corporativos y ayudé a redactar su documentación de seguridad.",
+            "**Guías frente a amenazas:** Redacté guías con pasos de acción frente a las etapas de la Cyber Kill Chain e investigué controles de ISO 27001."
           ]
         },
         {
@@ -63,8 +60,8 @@
           "org": "ITD Telecom",
           "meta": "(Ene 2021 – Ago 2021) | Santiago, Chile",
           "bullets": [
-            "**Hosting Support & Tooling:** Soporte a la plataforma de hosting, desarrollo de herramientas internas e implementación de GLPI para tickets de TI.",
-            "**Monitoring & SLAs:** Monitoreé la infraestructura con **Cacti** y aporté a las políticas internas de SLA."
+            "**Soporte de hosting y herramientas:** Di soporte a la plataforma de hosting, desarrollé herramientas internas e implementé GLPI para los tickets de TI.",
+            "**Monitoreo y SLAs:** Monitoreé la infraestructura con Cacti y aporté a las políticas internas de SLA."
           ]
         },
         {
@@ -72,8 +69,8 @@
           "org": "Universidad Técnica Federico Santa María",
           "meta": "(Ago 2019 – Dic 2022) | Santiago, Chile",
           "bullets": [
-            "**Ayudante de Cátedra:** Gestión de Proyectos de Informática *(Abr 2022 – Dic 2022)*, Estructuras de Datos *(Mar 2020 – Jul 2022)*, Introducción a la Ingeniería *(Ago 2020 – Ene 2021)* y Programación en Python *(Mar 2020 – Jul 2020)*: apoyo en cátedras, material de estudio, ayudantías y corrección de tareas de código y teoría.",
-            "**Ayudante de Laboratorio** *(Ago 2019 – Oct 2019)*: Mantenimiento preventivo y correctivo de los equipos de laboratorio."
+            "**Ayudante de cátedra:** Gestión de Proyectos de Informática *(Abr 2022 – Dic 2022)*, Estructuras de Datos *(Mar 2020 – Jul 2022)*, Introducción a la Ingeniería *(Ago 2020 – Ene 2021)* y Programación en Python *(Mar 2020 – Jul 2020)*: apoyo en cátedras, material de estudio, ayudantías y corrección de tareas de código y teoría.",
+            "**Ayudante de laboratorio** *(Ago 2019 – Oct 2019)*: Mantenimiento preventivo y correctivo de los equipos de laboratorio."
           ]
         }
       ]
@@ -83,9 +80,8 @@
       "bullets": [
         "**Trismegistus** ([hermes-relay](https://github.com/xMuramasa/hermes-relay), [trismegistus-mac](https://github.com/xMuramasa/trismegistus-mac), [trismegistus-android](https://github.com/xMuramasa/trismegistus-android)): relay WebSocket en Go con SQLite y reenvío de eventos para un agente de IA autoalojado, más apps SwiftUI y Jetpack Compose sobre un protocolo con contract tests.",
         "**[Caduceus](https://github.com/xMuramasa/caduceus) (Go):** Motor de mi flujo con agentes de IA: convierte un issue listo de GitHub en una ejecución headless de Claude Code en su propio worktree, y una cola de merge integra los PRs revisados cuando pasan sus checks.",
-        "**Homelab Autoalojado:** 25 contenedores Docker Compose tras Caddy (TLS wildcard vía Cloudflare DNS-01), DNS con AdGuard, acceso solo por Tailscale, monitoreo con Beszel/Uptime Kuma y respaldos nocturnos con restic.",
-        "**Open Source:** [news-reader](https://github.com/xMuramasa/news-reader) (noticias generadas con IA como JSON validado; Bun, MongoDB, React), [img-transformer](https://github.com/xMuramasa/img-transformer) (conversión de imágenes con FastAPI) y [on-site-meeting-logger](https://github.com/xMuramasa/on-site-meeting-logger) (de grabaciones de reuniones a actas y PDFs).",
-        "**Tesis – ML para Clasificación de Autómatas:** Modelo de alta precisión para autómatas celulares 1D."
+        "**Homelab autoalojado:** 25 contenedores Docker Compose tras Caddy (TLS wildcard vía Cloudflare DNS-01), DNS con AdGuard, acceso solo por Tailscale, monitoreo con Beszel/Uptime Kuma y respaldos nocturnos con restic.",
+        "**Código abierto:** [news-reader](https://github.com/xMuramasa/news-reader) (noticias generadas con IA como JSON validado; Bun, MongoDB, React), [img-transformer](https://github.com/xMuramasa/img-transformer) (conversión de imágenes con FastAPI) y [on-site-meeting-logger](https://github.com/xMuramasa/on-site-meeting-logger) (de grabaciones de reuniones a actas y PDFs)."
       ]
     },
     {
@@ -95,7 +91,8 @@
           "title": "Universidad Técnica Federico Santa María",
           "meta": "(2017 – 2023) | Santiago, Chile",
           "bullets": [
-            "Licenciatura en Ciencias (B.Sc.) en Ingeniería Civil Informática (Grado Profesional de 5 años)"
+            "Ingeniero Civil Informático (título profesional) · Licenciado en Ciencias de la Ingeniería",
+            "Tesis: clasificador de machine learning para autómatas celulares 1D (98,5 % de precisión)."
           ]
         }
       ]
@@ -103,9 +100,9 @@
     {
       "title": "CERTIFICACIONES",
       "bullets": [
-        "**[Argo CD and Argo Rollouts for GitOps: The Definitive Guide](https://www.udemy.com/certificate/UC-49965bee-53e3-4448-91a5-6d686af652a4/)** (Udemy, nov. 2026)",
-        "**Docker Mastery:** Kubernetes & Swarm (Udemy)",
-        "**Go - The Complete Guide** (Udemy)"
+        "**[Argo CD and Argo Rollouts for GitOps: The Definitive Guide](https://www.udemy.com/certificate/UC-49965bee-53e3-4448-91a5-6d686af652a4/)** (Udemy, Nov 2026)",
+        "**Docker Mastery: Kubernetes & Swarm** (Udemy, Nov 2024)",
+        "**Go - The Complete Guide** (Udemy, Ene 2024)"
       ]
     },
     {
