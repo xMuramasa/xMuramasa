@@ -73,7 +73,7 @@
           "meta": "(Aug 2019 – Dec 2022) | Santiago, Chile",
           "bullets": [
             "**Course Assistant:** IT Project Management *(Apr 2022 – Dec 2022)*, Data Structures *(Mar 2020 – Jul 2022)*, Introduction to Engineering *(Aug 2020 – Jan 2021)* and Python Programming *(Mar 2020 – Jul 2020)*: supported lectures, prepared study materials, taught tutorial sessions and graded code and theory assignments.",
-            "**Lab Assistant** *(Aug 2019 – Oct 2019)*: Performed preventive and corrective maintenance of the department's lab computer fleet."
+            "**Lab Assistant** *(Aug 2019 – Oct 2019)*: Preventive and corrective maintenance of the department's lab computers."
           ]
         }
       ]
@@ -81,10 +81,11 @@
     {
       "title": "KEY PROJECTS",
       "bullets": [
-        "**Trismegistus (Go, Swift, Kotlin):** Go WebSocket relay with SQLite and event replay for a self-hosted AI agent, plus native SwiftUI (macOS) and Jetpack Compose (Android) apps on one contract-tested protocol.",
+        "**Trismegistus** ([hermes-relay](https://github.com/xMuramasa/hermes-relay), [trismegistus-mac](https://github.com/xMuramasa/trismegistus-mac), [trismegistus-android](https://github.com/xMuramasa/trismegistus-android)): Go WebSocket relay with SQLite and event replay for a self-hosted AI agent, plus native SwiftUI and Jetpack Compose apps on one contract-tested protocol.",
+        "**[Caduceus](https://github.com/xMuramasa/caduceus) (Go):** Engine of my agentic workflow: turns a ready GitHub issue into a headless Claude Code run in its own worktree, and a merge queue lands reviewed PRs once their gates pass.",
         "**Self-Hosted Homelab:** 25 Docker Compose containers behind Caddy (wildcard TLS via Cloudflare DNS-01), AdGuard DNS, Tailscale-only access, Beszel/Uptime Kuma monitoring and nightly restic backups.",
         "**Open Source:** [news-reader](https://github.com/xMuramasa/news-reader) (AI news briefings as validated JSON; Bun, MongoDB, React), [img-transformer](https://github.com/xMuramasa/img-transformer) (FastAPI image conversion) and [on-site-meeting-logger](https://github.com/xMuramasa/on-site-meeting-logger) (meeting recordings to minutes and PDFs).",
-        "**Thesis - Machine Learning for Automata Classification:** Built a high-accuracy model for 1D cellular automata, demonstrating strong analytical and algorithmic design skills."
+        "**Thesis – ML for Automata Classification:** High-accuracy model for 1D cellular automata."
       ]
     },
     {

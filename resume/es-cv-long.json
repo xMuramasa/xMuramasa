@@ -81,10 +81,11 @@
     {
       "title": "PROYECTOS DESTACADOS",
       "bullets": [
-        "**Trismegistus (Go, Swift, Kotlin):** Relay WebSocket en Go con SQLite y reenvío de eventos para un agente de IA autoalojado, y apps nativas SwiftUI (macOS) y Jetpack Compose (Android) sobre un protocolo común con contract tests.",
+        "**Trismegistus** ([hermes-relay](https://github.com/xMuramasa/hermes-relay), [trismegistus-mac](https://github.com/xMuramasa/trismegistus-mac), [trismegistus-android](https://github.com/xMuramasa/trismegistus-android)): relay WebSocket en Go con SQLite y reenvío de eventos para un agente de IA autoalojado, más apps SwiftUI y Jetpack Compose sobre un protocolo con contract tests.",
+        "**[Caduceus](https://github.com/xMuramasa/caduceus) (Go):** Motor de mi flujo con agentes de IA: convierte un issue listo de GitHub en una ejecución headless de Claude Code en su propio worktree, y una cola de merge integra los PRs revisados cuando pasan sus checks.",
         "**Homelab Autoalojado:** 25 contenedores Docker Compose tras Caddy (TLS wildcard vía Cloudflare DNS-01), DNS con AdGuard, acceso solo por Tailscale, monitoreo con Beszel/Uptime Kuma y respaldos nocturnos con restic.",
         "**Open Source:** [news-reader](https://github.com/xMuramasa/news-reader) (noticias generadas con IA como JSON validado; Bun, MongoDB, React), [img-transformer](https://github.com/xMuramasa/img-transformer) (conversión de imágenes con FastAPI) y [on-site-meeting-logger](https://github.com/xMuramasa/on-site-meeting-logger) (de grabaciones de reuniones a actas y PDFs).",
-        "**Tesis - Machine Learning para Clasificación de Autómatas:** Construí un modelo de alta precisión para autómatas celulares 1D, demostrando sólidas habilidades de diseño analítico y algorítmico."
+        "**Tesis – ML para Clasificación de Autómatas:** Modelo de alta precisión para autómatas celulares 1D."
       ]
     },
     {
