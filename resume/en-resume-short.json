@@ -3,7 +3,7 @@
   "sections": [
     {
       "title": "SUMMARY",
-      "text": "Software and cloud engineer shipping end to end, from cloud to mobile; at Mynu I cut cloud costs ~70%."
+      "text": "Software and cloud engineer: I ship end to end, from cloud to mobile, and at Mynu I cut cloud costs by ~70%."
     },
     {
       "title": "TECHNICAL SKILLS",
@@ -11,7 +11,7 @@
         "**Cloud & Platform:** AWS (EC2, ECS, Lambda, RDS, SQS, S3), Kubernetes (k3s), ArgoCD, Terraform, Grafana.",
         "**Architecture & IAM:** Microservices, event-driven design, distributed systems; Cognito, Clerk, OAuth, JWT.",
         "**Backend & Data:** Go, Python, TypeScript/Node.js, Docker, GitHub Actions, PostgreSQL, MongoDB.",
-        "**Agentic Development:** Architecture and review are mine; Claude Code agents handle most implementation."
+        "**Agentic Development:** Architecture and review are mine; Claude Code agents handle most of the implementation."
       ]
     },
     {
@@ -22,10 +22,10 @@
           "org": "Mynu.ai",
           "meta": "(Mar 2024 – Present) | Santiago, Chile",
           "bullets": [
-            "Sole infrastructure engineer: planned and led the ECS/Fargate → Kubernetes (k3s) migration with Terraform and ArgoCD GitOps, cutting monthly cloud costs ~70%; merged three Aurora instances into a single RDS instance.",
+            "Sole infrastructure engineer: planned and led the ECS/Fargate → Kubernetes (k3s) migration with Terraform and ArgoCD GitOps, cutting monthly cloud costs by ~70%; consolidated three Aurora instances into a single RDS instance.",
             "Built a queue-driven PDF report service for bulk B2B distribution (~150 queued reports tested with real users) and a shared library for genetic-predisposition calculations.",
-            "Created the team's Claude Code skills (spec → issue → stacked PRs → automated review), synced org-wide; administer GitHub Enterprise and review team and AI-generated code.",
-            "Shipped Mynu App (iOS/Android) and web platforms from zero to production with React Native (Expo) and React; earlier led the Azure → AWS ECS/Fargate migration.",
+            "Created the team's Claude Code skills (spec → issue → stacked PRs → automated review), available org-wide; administer GitHub Enterprise and review teammates' and AI-generated code.",
+            "Shipped the Mynu App (iOS/Android) and web platforms from zero to production with React Native (Expo) and React; earlier led the Azure → AWS ECS/Fargate migration.",
             "Migrated auth from Cognito to Clerk with zero downtime or data loss."
           ]
         },
@@ -42,7 +42,7 @@
           "org": "NTT DATA Europe & LATAM",
           "meta": "(Jan 2022 – Feb 2022) | Santiago, Chile",
           "bullets": [
-            "Assessed clients' Azure networks; drafted security docs and Cyber Kill Chain action guides; researched ISO 27001."
+            "Assessed clients' Azure networks; drafted security docs and Cyber Kill Chain response guides; researched ISO 27001."
           ]
         },
         {
@@ -59,7 +59,7 @@
       "title": "KEY PROJECTS",
       "bullets": [
         "**[Trismegistus](https://github.com/xMuramasa/hermes-relay):** Go WebSocket relay and native SwiftUI/Jetpack Compose apps for a self-hosted AI agent.",
-        "**[Caduceus](https://github.com/xMuramasa/caduceus):** Go engine of my agentic workflow: issue → headless Claude Code run → gated merge queue.",
+        "**[Caduceus](https://github.com/xMuramasa/caduceus):** Go engine of my agentic workflow (issue → headless Claude Code run → gated merge queue).",
         "**Self-Hosted Homelab:** 25 Docker Compose containers behind Caddy (wildcard TLS), Tailscale, restic backups."
       ]
     },
@@ -70,7 +70,7 @@
           "title": "Universidad Técnica Federico Santa María",
           "meta": "(2017 – 2023) | Santiago, Chile",
           "bullets": [
-            "Ingeniero Civil Informático (professional title in Computer Engineering) · B.Sc. in Engineering Sciences"
+            "Professional degree in Computer Engineering (Ingeniero Civil Informático) · B.Sc. in Engineering Sciences"
           ]
         }
       ]
@@ -84,7 +84,7 @@
     }
   ],
   "title": "Software & Cloud Engineer",
-  "location": "Santiago, Chile · Open to remote · Professional English",
+  "location": "Santiago, Chile · Open to remote · English: professional proficiency",
   "contact": [
     {
       "text": "martin.salinas.scussolin@gmail.com",

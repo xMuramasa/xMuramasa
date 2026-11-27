@@ -3,7 +3,7 @@
   "sections": [
     {
       "title": "SUMMARY",
-      "text": "Software and cloud engineer with 4+ years shipping end to end, from cloud infrastructure to mobile apps. As Mynu's sole infrastructure engineer I cut cloud costs ~70%. I work with an agentic workflow and I'm growing toward software architecture."
+      "text": "Software and cloud engineer with 4+ years shipping end to end, from cloud to mobile apps. As Mynu's sole infrastructure engineer, I cut cloud costs by ~70%. I work with an agentic workflow and I'm growing toward software architecture."
     },
     {
       "title": "TECHNICAL SKILLS",
@@ -15,7 +15,7 @@
         "**Identity & Access (IAM):** AWS Cognito, Clerk, OAuth, JWT, Google Cloud Service Accounts, Apple Developer.",
         "**Backend & Data:** Go, Python, TypeScript/Node.js, Bun, FastAPI, Docker; PostgreSQL, AWS Aurora, DynamoDB, MongoDB, SQLite.",
         "**Apps & Self-Hosting:** React Native (Expo), React, SwiftUI, Jetpack Compose, Docker Compose, Caddy, Tailscale.",
-        "**Agentic Development:** Architecture, review and hand edits are mine; Claude Code agents handle most implementation."
+        "**Agentic Development:** Architecture, review and hand edits are mine; Claude Code agents handle most of the implementation."
       ]
     },
     {
@@ -27,10 +27,10 @@
           "meta": "(Mar 2024 – Present) | Santiago, Chile",
           "bullets": [
             "**Kubernetes Migration & Cost Reduction:** As the sole infrastructure engineer, planned and led the move of every service from AWS ECS/Fargate to self-managed Kubernetes (k3s) on AWS, with all infrastructure in Terraform; cut monthly cloud spend by ~70%. Also consolidated three Aurora instances into one RDS instance and ran the data migrations.",
-            "**GitOps CI/CD:** Introduced ArgoCD GitOps, where GitHub Actions builds ARM64 images and writes the new tag to the manifests repo, ArgoCD deploys dev and prod, and AWS Secrets Manager injects credentials, with no hardcoded secrets.",
+            "**GitOps CI/CD:** Introduced ArgoCD GitOps, where GitHub Actions builds ARM64 images and writes the new tag to the manifests repo, ArgoCD deploys dev and prod, and AWS Secrets Manager injects credentials (no hardcoded secrets).",
             "**Observability:** Set up monitoring (Prometheus, Grafana, Alertmanager, CloudWatch alarms to Slack) to measure resource utilization, which guided the cost-reduction work.",
             "**Report Generation Service:** Built a queue-driven PDF service (Node, SQS, S3, React-PDF) that moved report generation out of the browser and enabled bulk B2B report distribution; validated with real users on batches of ~150 queued reports.",
-            "**AI Development Workflow:** Built the team's Claude Code plugin marketplace: skills that take a request from written spec to GitHub issue, stacked PRs and review, an automated PR reviewer with the team's known-bug checklist, and documentation standards; synced org-wide so non-engineers can use it in the Claude app.",
+            "**AI Development Workflow:** Built the team's Claude Code plugin marketplace: skills that take a request from written spec to GitHub issue, stacked PRs and review; an automated PR reviewer that checks the team's known-bug list; and documentation standards. It's available org-wide, so non-engineers can use it in the Claude app.",
             "**Shared Predisposition Library:** Consolidated genetic-predisposition calculations scattered across apps into one shared TypeScript library.",
             "**Full-Stack & Mobile Development:** Built the Mynu App (iOS/Android) with React Native (Expo) and the web platforms app.mynubaby.cl and mi.mynu.ai with React and TanStack Query, from zero to production.",
             "**Ownership & Code Review:** Maintain the lab sample-tracking and kit-management systems, administer the GitHub Enterprise organization (permissions, roles), and review teammates' and AI-generated code.",
@@ -42,7 +42,7 @@
           "org": "Zippedi Inc.",
           "meta": "(Jun 2022 – Oct 2023) | Santiago, Chile",
           "bullets": [
-            "**Customer Mobile App:** Shipped new features for the customer-facing mobile app, in Shape-Up cycles and agile sprints.",
+            "**Customer Mobile App:** Shipped new features for the customer-facing mobile app in Shape-Up cycles and agile sprints.",
             "**Internal Tooling:** Revamped the internal task-management platform and added features and upgrades to the QA platform."
           ]
         },
@@ -52,7 +52,7 @@
           "meta": "(Jan 2022 – Feb 2022) | Santiago, Chile",
           "bullets": [
             "**Cloud Security:** Assessed Azure network topologies for corporate clients and helped draft their security documentation.",
-            "**Threat Response Guides:** Wrote action guides against Cyber Kill Chain stages and researched ISO 27001 controls."
+            "**Threat Response Guides:** Wrote response guides mapped to Cyber Kill Chain stages and researched ISO 27001 controls."
           ]
         },
         {
@@ -70,7 +70,7 @@
           "meta": "(Aug 2019 – Dec 2022) | Santiago, Chile",
           "bullets": [
             "**Course Assistant:** IT Project Management *(Apr 2022 – Dec 2022)*, Data Structures *(Mar 2020 – Jul 2022)*, Introduction to Engineering *(Aug 2020 – Jan 2021)* and Python Programming *(Mar 2020 – Jul 2020)*: supported lectures, prepared study materials, taught tutorial sessions and graded code and theory assignments.",
-            "**Lab Assistant** *(Aug 2019 – Oct 2019)*: Preventive and corrective maintenance of the department's lab computers."
+            "**Lab Assistant** *(Aug 2019 – Oct 2019)*: Performed preventive and corrective maintenance on the lab computers."
           ]
         }
       ]
@@ -79,7 +79,7 @@
       "title": "KEY PROJECTS",
       "bullets": [
         "**Trismegistus** ([hermes-relay](https://github.com/xMuramasa/hermes-relay), [trismegistus-mac](https://github.com/xMuramasa/trismegistus-mac), [trismegistus-android](https://github.com/xMuramasa/trismegistus-android)): Go WebSocket relay with SQLite and event replay for a self-hosted AI agent, plus native SwiftUI and Jetpack Compose apps on one contract-tested protocol.",
-        "**[Caduceus](https://github.com/xMuramasa/caduceus) (Go):** Engine of my agentic workflow: turns a ready GitHub issue into a headless Claude Code run in its own worktree, and a merge queue lands reviewed PRs once their gates pass.",
+        "**[Caduceus](https://github.com/xMuramasa/caduceus) (Go):** The engine of my agentic workflow. It turns a ready GitHub issue into a headless Claude Code run in its own worktree, and its merge queue lands reviewed PRs once their gates pass.",
         "**Self-Hosted Homelab:** 25 Docker Compose containers behind Caddy (wildcard TLS via Cloudflare DNS-01), AdGuard DNS, Tailscale-only access, Beszel/Uptime Kuma monitoring and nightly restic backups.",
         "**Open Source:** [news-reader](https://github.com/xMuramasa/news-reader) (AI news briefings as validated JSON; Bun, MongoDB, React), [img-transformer](https://github.com/xMuramasa/img-transformer) (FastAPI image conversion) and [on-site-meeting-logger](https://github.com/xMuramasa/on-site-meeting-logger) (meeting recordings to minutes and PDFs)."
       ]
@@ -91,7 +91,7 @@
           "title": "Universidad Técnica Federico Santa María",
           "meta": "(2017 – 2023) | Santiago, Chile",
           "bullets": [
-            "Ingeniero Civil Informático (professional title in Computer Engineering) · B.Sc. in Engineering Sciences",
+            "Professional degree in Computer Engineering (Ingeniero Civil Informático) · B.Sc. in Engineering Sciences",
             "Thesis: machine-learning classifier for 1D cellular automata (98.5% accuracy)."
           ]
         }
@@ -111,7 +111,7 @@
     }
   ],
   "title": "Software & Cloud Engineer",
-  "location": "Santiago, Chile · Open to remote · Professional English",
+  "location": "Santiago, Chile · Open to remote · English: professional proficiency",
   "contact": [
     {
       "text": "martin.salinas.scussolin@gmail.com",
